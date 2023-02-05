@@ -12,7 +12,6 @@ public class SpringBootAppTest {
     @Test
     public void contextLoads(){
         logger.info("Test Case Executing");
-        logger.info("Test Case Executing :Line 2");
         assertEquals(true, true);
     }
 }
